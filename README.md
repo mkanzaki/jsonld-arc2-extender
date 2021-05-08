@@ -2,14 +2,14 @@
 
 ## Overview
 
-ARC2_JSONLDParser.php is an ARC2 module to parse JSON-LD and extract RDF, by extending JsonLdProcessor provided by jsonld.php.
+`ARC2_JSONLDParser.php` is an ARC2 module to parse JSON-LD and extract RDF, by extending `JsonLdProcessor` provided by `jsonld.php`.
 
-ARC2_JSONLDParser has a class JSONLD2RDF which extends JsonLdProcessor in order to get ARC2 compatible quad object from the parse results returned by JsonLdProcessor.
+ARC2_JSONLDParser has a class JSONLD2RDF which extends JsonLdProcessor in order to get ARC2 compatible quad object from the parse results returned by JsonLdProcessor. It supports JSON-LD 1.0.
 
 
 ## Installation
 
-Place ARC2_JSONLDParser.php and jsonld.php in ARC2's 'parsers' directory.
+Place `ARC2_JSONLDParser.php` and `jsonld.php` in ARC2's `parsers` directory.
 
 ## Credits
 
